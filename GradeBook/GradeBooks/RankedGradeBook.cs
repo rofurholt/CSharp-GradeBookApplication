@@ -8,7 +8,7 @@ namespace GradeBook.GradeBooks
 {
     public class RankedGradeBook : BaseGradeBook
     {
-        public RankedGradeBook(string name) : base(name) //to create the call to the base constructor
+        public RankedGradeBook(string name, bool isWeighted) : base(name, isWeighted) //to create the call to the base constructor
         {
             Type = GradeBookType.Ranked;
         }
